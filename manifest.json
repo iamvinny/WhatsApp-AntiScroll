@@ -1,0 +1,23 @@
+{
+ "manifest_version": 2,
+ "name": "WhatsApp Anti-Scroll to Top",
+ "version": "1.0.0",
+ "description": "",
+ "short_name": "WSTTP",
+ "icons": { "16": "icons/icon16.png",
+           "48": "icons/icon48.png",
+          "128": "icons/icon128.png" 
+},
+ "permissions": ["activeTab", "declarativeContent", "storage", "<all_urls>"],
+ "content_scripts": [
+   {
+     "matches": ["<all_urls>"],
+     "css": ["stylesheet.css"],
+     "js": ["whatsapp-script.js"]
+   }
+ ],
+ "browser_action": {
+   "default_title": "",
+   "default_popup": ""
+ }
+}
