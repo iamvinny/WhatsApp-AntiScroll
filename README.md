@@ -26,6 +26,8 @@ If you feel like contributing to this project, PRs are more than welcome, right 
 
 * Prevent from scrolling to the top when you delete a message.
 
+* Prevent from scrolling to the top when you send a picture.
+
 * Make a page to manage the extension's options.
 
 * Anything else that I haven't noticed yet... This ReadMe will be updated. ^-^
